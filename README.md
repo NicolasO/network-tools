@@ -32,7 +32,6 @@ RUN dnf -y update && \
     dnf -y install --setopt=tsflags=nodocs \
       openssh-clients \
       nmap-ncat \
-      curl \
       bind-utils \
       iproute \
       net-tools && \
