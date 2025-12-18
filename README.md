@@ -33,9 +33,6 @@ RUN dnf -y update && \
       openssh-clients \
       nmap-ncat \
       curl \
-      telnet \
-      traceroute \
-      tcpdump \
       bind-utils \
       iproute \
       net-tools && \
